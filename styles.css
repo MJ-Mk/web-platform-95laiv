@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #a62f73,
+    #9e3580,
+    #943c8c,
+    #874397,
+    #784aa0,
+    #6b5fbd,
+    #5273d7,
+    #0088ef,
+    #00b0ff,
+    #00d0f2,
+    #00e7a1,
+    #1af60f
+  );
+}
