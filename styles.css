@@ -1,21 +1,73 @@
-* {
-  box-sizing: border-box;
+body {
+  background-image: url('https://roboticket-com.s3.eu-central-1.amazonaws.com/imgs/ro_main_bg.webp'),
+    linear-gradient(to left, #311e85, #37966e);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
-body {
-  background-image: linear-gradient(
-    to right top,
-    #a62f73,
-    #9e3580,
-    #943c8c,
-    #874397,
-    #784aa0,
-    #6b5fbd,
-    #5273d7,
-    #0088ef,
-    #00b0ff,
-    #00d0f2,
-    #00e7a1,
-    #1af60f
-  );
+main {
+  padding: 2vw 7vw;
+  min-height: calc(40vh + 30vw);
+}
+
+main .logo {
+  flex-basis: 50%;
+}
+
+main .logo img {
+  width: clamp(160px, 23vw, 430px);
+}
+
+main .logo p {
+  font-size: 2.5em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-variant-caps: all-small-caps;
+  line-height: 0.8;
+  color: aqua;
+  margin: 10px 0;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  flex-basis: 50%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+header {
+  display: flex;
+}
+
+.slogan {
+  display: flex;
+  justify-content: flex-end;
+  width: 50vw;
+  padding-left: 40vw;
+  font-size: 3rem;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  padding-left: 38vw;
+  margin-top: 8vh;
+}
+
+.menu li {
+  font-size: 2.5rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-basis: 100vw;
 }
