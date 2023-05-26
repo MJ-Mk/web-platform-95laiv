@@ -1,6 +1,6 @@
 body {
-  background-image: url('https://roboticket-com.s3.eu-central-1.amazonaws.com/imgs/ro_main_bg.webp'),
-    linear-gradient(to left, #311e85, #37966e);
+ /* background-image: url('https://roboticket-com.s3.eu-central-1.amazonaws.com/imgs/ro_main_bg.webp'),
+  linear-gradient(to left, #311e85, #37966e); */
   background-size: 100vw;
   background-repeat: no-repeat;
   margin: 0;
