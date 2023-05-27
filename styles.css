@@ -1,10 +1,15 @@
 body {
   /* background-image: url('https://roboticket-com.s3.eu-central-1.amazonaws.com/imgs/ro_main_bg.webp'),
-  linear-gradient(to left, #311e85, #37966e); */
-  background-image: url('https://cdn.jsdelivr.net/gh/MJ-Mk/web-platform-95laiv@main/img/svg1.svg');
-  background-size: 100vw;
-  background-repeat: no-repeat;
+  linear-gradient(to left 45deg, #311e85, #37966e); */
+  background-image: linear-gradient(54deg, #c45000, #6b3ac5, #86923f);
+  //background-size: 100vw;
+  //background-repeat: no-repeat;
   margin: 0;
+}
+
+header {
+  padding: 2vw 7vw;
+  display: flex;
 }
 
 main {
@@ -12,15 +17,15 @@ main {
   min-height: calc(40vh + 30vw);
 }
 
-main .logo {
+header .logo {
   flex-basis: 50%;
 }
 
-main .logo img {
+header .logo img {
   width: clamp(160px, 23vw, 430px);
 }
 
-main .logo p {
+header .logo p {
   font-size: 2.5em;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 200;
@@ -37,10 +42,6 @@ nav {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: aliceblue;
-}
-
-header {
-  display: flex;
 }
 
 .slogan {
@@ -71,4 +72,19 @@ header {
 section {
   display: flex;
   flex-basis: 100vw;
+  min-height: 400px;
+}
+
+section .uno {
+  background-color: #86923f;
+}
+
+main {
+ 
+  background-image: url('https://cdn.jsdelivr.net/gh/MJ-Mk/web-platform-95laiv@main/img/svg4.svg');
+}
+
+
+.slogan {
+  z-index: 1000;
 }
