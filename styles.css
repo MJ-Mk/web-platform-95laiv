@@ -79,9 +79,9 @@ section .uno {
 }
 
 main {
- /* background-image: url('https://cdn.jsdelivr.net/gh/MJ-Mk/web-platform-95laiv@main/img/svg.svg'); */
- background-image: url('
-  https://cdn.jsdelivr.net/gh/MJ-Mk/web-platform-95laiv@main/img/svg.svg'); 
+
+ background-image: url(
+  /img/svg.svg) 
 }
 
 .slogan {
